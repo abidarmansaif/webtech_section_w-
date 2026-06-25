@@ -1,0 +1,54 @@
+.form {
+    border: 5px solid #840fab;
+    border-radius: 20px;
+    margin:30px 700px 50px 400px;
+    padding:10px;
+    
+}
+.design {
+    background-color: #840fab ;
+    color:#ede7ef;
+    font-size: 25px;
+    text-align:none;
+    
+    border-radius: 10px;
+}
+.table{
+    margin-left: 30px;
+    display: flex;
+    gap:50px;
+}
+.parent {
+    position:relative;
+    width: 20px;
+    height:20px;
+    margin-left: 40px;
+}
+.parent .child1{
+position: absolute;
+top:0 px;
+bottom:20px;
+left:400px;
+font-size: 10px;
+border: none;
+border-radius:10px;
+padding: 10px  20px;
+background-color:rgb(186, 37, 203);
+color: white;
+
+}
+.parent .child2{
+position: absolute;
+top:0 px;
+bottom:20px; 
+left:490px;
+font-size: 10px;
+border: none;
+border-radius:10px;
+padding: 10px  20px;
+background-color:rgb(186, 37, 203);
+color: white;
+}
+.exp {
+    width: 170px;
+}
